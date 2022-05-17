@@ -12,6 +12,8 @@ def main():
     myBudgetList = BudgetList.budget
     budget = 1200
 
+if __name__ == "__main__":
+    main()
         
 # Define an append method that has two parameters - self and item. Put pass inside the method for now.
 
@@ -53,3 +55,6 @@ for expense in expenses.list:
 
 #for expense in expenses.list:
  #   spending_categories.append(expense.category)
+
+ #11
+ print('The amount of all expenses' + str(len(myBudgetList)))
